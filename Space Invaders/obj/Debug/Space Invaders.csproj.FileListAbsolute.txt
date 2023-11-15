@@ -1,0 +1,31 @@
+C:\Users\Martin\source\repos\Space Invaders\bin\Debug\Space Invaders.exe.config
+C:\Users\Martin\source\repos\Space Invaders\bin\Debug\Space Invaders.exe
+C:\Users\Martin\source\repos\Space Invaders\bin\Debug\Space Invaders.pdb
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space Invaders.csproj.AssemblyReference.cache
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space Invaders.csproj.SuggestedBindingRedirects.cache
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space_Invaders.Properties.Resources.resources
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space Invaders.csproj.GenerateResource.cache
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space Invaders.csproj.CoreCompileInputs.cache
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space Invaders.exe
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space Invaders.pdb
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space_Invaders.Game.resources
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space_Invaders.Forms.PlayerLostForm.resources
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space_Invaders.Forms.MenuForm.resources
+C:\Users\Martin\source\repos\Space Invaders\obj\Debug\Space_Invaders.Forms.DifficultySelectionForm.resources
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\bin\Debug\Space Invaders.exe.config
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\bin\Debug\Space Invaders.exe
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\bin\Debug\Space Invaders.pdb
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\bin\Debug\SimpleInjector.dll
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\bin\Debug\SimpleInjector.xml
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space Invaders.csproj.AssemblyReference.cache
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space Invaders.csproj.SuggestedBindingRedirects.cache
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space_Invaders.Forms.DifficultySelectionForm.resources
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space_Invaders.Game.resources
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space_Invaders.Forms.MenuForm.resources
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space_Invaders.Forms.PlayerLostForm.resources
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space_Invaders.Properties.Resources.resources
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space Invaders.csproj.GenerateResource.cache
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space Invaders.csproj.CoreCompileInputs.cache
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space Invaders.csproj.CopyComplete
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space Invaders.exe
+C:\Users\Martin\source\repos\SpaceInvaders\Space Invaders\obj\Debug\Space Invaders.pdb

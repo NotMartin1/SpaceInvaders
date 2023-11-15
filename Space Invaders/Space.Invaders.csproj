@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C160F68-35DD-4A61-9467-6CD07B730326}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Space_Invaders</RootNamespace>
+    <AssemblyName>Space Invaders</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="SimpleInjector, Version=5.0.0.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>packages\SimpleInjector.5.4.2\lib\net461\SimpleInjector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Alien.cs" />
+    <Compile Include="Entities\Barrier.cs" />
+    <Compile Include="Entities\Bullet.cs" />
+    <Compile Include="Entities\Constants\AlienConstants.cs" />
+    <Compile Include="Entities\Constants\GameConstants.cs" />
+    <Compile Include="Entities\Constants\PlayerConstants.cs" />
+    <Compile Include="Entities\Enums\AlienType.cs" />
+    <Compile Include="Entities\Enums\Difficulty.cs" />
+    <Compile Include="Entities\Enums\Direction.cs" />
+    <Compile Include="Entities\Enums\EntityType.cs" />
+    <Compile Include="Entities\GameEntity.cs" />
+    <Compile Include="Entities\GameEntityCommon.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\Settings\AlienSettings.cs" />
+    <Compile Include="Entities\Settings\PlayerSettings.cs" />
+    <Compile Include="Forms\DifficultySelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DifficultySelectionForm.Designer.cs">
+      <DependentUpon>DifficultySelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlayerLostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlayerLostForm.Designer.cs">
+      <DependentUpon>PlayerLostForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectContainerInitializer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AliensService.cs" />
+    <Compile Include="Services\BarrierService.cs" />
+    <Compile Include="Services\GamePauseService.cs" />
+    <Compile Include="Services\IAliensService.cs" />
+    <Compile Include="Services\IBarrierService.cs" />
+    <Compile Include="Services\IPlayerService.cs" />
+    <Compile Include="Services\PlayerService.cs" />
+    <EmbeddedResource Include="Forms\DifficultySelectionForm.resx">
+      <DependentUpon>DifficultySelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlayerLostForm.resx">
+      <DependentUpon>PlayerLostForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Source\Images\Barriers\barrier1.png" />
+    <Content Include="Source\Images\Barriers\barrier2.png" />
+    <Content Include="Source\Images\Barriers\barrier3.png" />
+    <Content Include="Source\Images\Barriers\barrier4.png" />
+    <Content Include="Source\Images\Barriers\barrier5.png" />
+    <None Include="Source\Images\alienType3.png" />
+    <None Include="Source\Images\alienType2.png" />
+    <None Include="Source\Images\alienType1.png" />
+    <None Include="Source\Images\health.png" />
+    <Content Include="Source\Images\space.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
