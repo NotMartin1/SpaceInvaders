@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C160F68-35DD-4A61-9467-6CD07B730326}</ProjectGuid>
+    <ProjectGuid>{C22B4C4F-D60E-4454-8221-94E24110497E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Space_Invaders</RootNamespace>
     <AssemblyName>Space Invaders</AssemblyName>
@@ -90,7 +90,6 @@
     <Compile Include="Forms\PlayerLostForm.Designer.cs">
       <DependentUpon>PlayerLostForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ObjectContainerInitializer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AliensService.cs" />

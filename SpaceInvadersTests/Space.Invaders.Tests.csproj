@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Space Invaders\Space Invaders.csproj" />
+    <ProjectReference Include="..\Space Invaders\Space.Invaders.csproj" />
   </ItemGroup>
 
 </Project>

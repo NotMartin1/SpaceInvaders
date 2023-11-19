@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Martin\\source\\repos\\SpaceInvaders\\SpaceInvadersTests\\Space.Invaders.Tests.csproj": {}
+    "C:\\Users\\User\\Desktop\\SpaceInvaders\\SpaceInvadersTests\\Space.Invaders.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Martin\\source\\repos\\SpaceInvaders\\Space Invaders\\Space.Invaders.csproj": {
+    "C:\\Users\\User\\Desktop\\SpaceInvaders\\Space Invaders\\Space.Invaders.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Martin\\source\\repos\\SpaceInvaders\\Space Invaders\\Space.Invaders.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\SpaceInvaders\\Space Invaders\\Space.Invaders.csproj",
         "projectName": "Space.Invaders",
-        "projectPath": "C:\\Users\\Martin\\source\\repos\\SpaceInvaders\\Space Invaders\\Space.Invaders.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\SpaceInvaders\\Space Invaders\\Space.Invaders.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,17 +19,21 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Martin\\source\\repos\\SpaceInvaders\\SpaceInvadersTests\\Space.Invaders.Tests.csproj": {
+    "C:\\Users\\User\\Desktop\\SpaceInvaders\\SpaceInvadersTests\\Space.Invaders.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Martin\\source\\repos\\SpaceInvaders\\SpaceInvadersTests\\Space.Invaders.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\SpaceInvaders\\SpaceInvadersTests\\Space.Invaders.Tests.csproj",
         "projectName": "Space.Invaders.Tests",
-        "projectPath": "C:\\Users\\Martin\\source\\repos\\SpaceInvaders\\SpaceInvadersTests\\Space.Invaders.Tests.csproj",
-        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Martin\\source\\repos\\SpaceInvaders\\SpaceInvadersTests\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\SpaceInvaders\\SpaceInvadersTests\\Space.Invaders.Tests.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\SpaceInvaders\\SpaceInvadersTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +47,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Martin\\source\\repos\\SpaceInvaders\\Space Invaders\\Space.Invaders.csproj": {
-                "projectPath": "C:\\Users\\Martin\\source\\repos\\SpaceInvaders\\Space Invaders\\Space.Invaders.csproj"
+              "C:\\Users\\User\\Desktop\\SpaceInvaders\\Space Invaders\\Space.Invaders.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\SpaceInvaders\\Space Invaders\\Space.Invaders.csproj"
               }
             }
           }
@@ -95,7 +99,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
